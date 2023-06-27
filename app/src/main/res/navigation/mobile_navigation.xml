@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_interview">
+
+    <fragment
+        android:id="@+id/navigation_interview"
+        android:name="com.fridayhouse.aiinterviewer.ui.interview.InterviewFragment"
+        android:label="@string/title_interview"
+        tools:layout="@layout/fragment_interview" />
+
+    <fragment
+        android:id="@+id/navigation_tips"
+        android:name="com.fridayhouse.aiinterviewer.ui.tips.TipsFragment"
+        android:label="@string/title_tips"
+        tools:layout="@layout/fragment_tips" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.fridayhouse.aiinterviewer.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
