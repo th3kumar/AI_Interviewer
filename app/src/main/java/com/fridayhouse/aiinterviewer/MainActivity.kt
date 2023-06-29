@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.toolbar)
 
+
         val navView: BottomNavigationView = binding.navView
         binding.navView.itemIconTintList = null
 
@@ -36,3 +37,4 @@ class MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
     }
 }
+

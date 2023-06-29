@@ -48,7 +48,7 @@
                 android:text="John Doe"
                 android:gravity="center"
                 android:fontFamily="@font/core_sans_medium"
-                android:textColor="@color/black"
+                android:textColor="?attr/textFillColor"
                 android:textSize="18sp"/>
 
             <TextView
@@ -58,7 +58,7 @@
                 android:text="johndoe321@gmail.com"
                 android:gravity="center"
                 android:fontFamily="@font/core_sans_medium"
-                android:textColor="@color/black"
+                android:textColor="?attr/textFillColor"
                 android:textSize="14sp"/>
             
             <androidx.appcompat.widget.AppCompatButton
