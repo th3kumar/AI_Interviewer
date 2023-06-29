@@ -16,4 +16,10 @@
 
     <color name="bottom_navigation">#E6D0B9</color>
 
+<!--   for dark mode-->
+    <color name="darkest_grey">#2D4356</color>
+    <color name="light_grey">#435B66</color>
+    <color name="darkest_brown">#A76F6F</color>
+    <color name="light_brown">#EAB2A0</color>
+
 </resources>
